@@ -12,6 +12,7 @@ img {
 /* Page styling */
 body {
     background-color: #333;
+    background-image: url(images/bg.jpg);
     color: rgb(235, 235, 235);
     transition: all 2s;
 }
@@ -41,11 +42,14 @@ header {
     width: 1100px;
     height: 250px;
     margin: auto;
-    background-color: rgb(235, 235, 235);
+    /* background-color: rgb(235, 235, 235); */
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
     color: #333;
     overflow: hidden;
     display: grid;
 	place-items: center;
+    border-radius: 12px;
 }
 
 #banner.switch {
