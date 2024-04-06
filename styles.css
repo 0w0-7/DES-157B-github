@@ -12,7 +12,7 @@ img {
 /* Page styling */
 body {
     background-color: #333;
-    background-image: url(images/bg.jpg);
+    background-image: url(images/blackbg.jpg);
     color: rgb(235, 235, 235);
     transition: all 2s;
 }
@@ -65,10 +65,14 @@ main {
 }
 
 main section {
-    flex: 1;
-    border: 1px rgb(235, 235, 235) dashed;
+    /* flex: 1; */
+    /* border: 1px rgb(235, 235, 235) dashed; */
     margin: 0 .25em;
-    padding: 1em;
+    padding: 1.5em;
+    background-image: url(images/sectionImg.jpg);
+    border-radius: 10px;
+    width: 320px;
+    height: auto;
 }
 
 a {
@@ -81,19 +85,23 @@ nav ol, nav ul {
     padding-left: 0;
 }
 
-section li {
+/* section li {
     padding-left: 1.2em;
+} */
+
+section h3 {
+    margin-top: 0;
 }
 
 section a {
     line-height: 1.1em;
     display: inline-block;
-    padding: .5em;
-    color: orange;
+    padding: .5em 0 .5em 0;
+    color: rgb(181, 181, 181);
 }
 
-section a:hover {
-    background-color: orange;
+section li:hover {
+    background-color: rgb(214, 214, 214);
     color: #333;
 }
 
