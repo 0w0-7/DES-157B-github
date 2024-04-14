@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* section {
+    position: absolute;
+} */
+
+/* #poem { */
+    /* top: 35%; */
+    /* left: 35%; */
+    /* margin: auto; */
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+/* } */
+
+#poem p {
+    position: absolute;
+    padding: 1em;
+    font-size: 1em;
+    width: 400px;
+    text-align: center;
+    height: auto;
+    background-color: rgb(255, 255, 255, .3);
+    transition: all 2.5s;
+
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5em;
+
+    /* margin: 0; */
+}
+
+#line1 {
+    top: 20%;
+    left: 0%;
+}
+
+#line2 {
+    top: 30%;
+    left: 0%;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.showing {
+    opacity: 1;
+}
+
+
+
+
+/*
+Notes:
+
+- I want to make it so that the background color of the text starts dim and gets brighter over time
+
+
+*/
