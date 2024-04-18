@@ -25,15 +25,26 @@
     /* margin-right: auto; */
 /* } */
 
+/* #poem {
+    margin: auto;
+} */
+
+body {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5em;
+}
+
 #poem p {
     position: absolute;
     padding: 1em;
-    font-size: 1em;
-    width: 400px;
+    font-size: 1.5em;
+    /* width: 400px; */
     text-align: center;
     height: auto;
     background-color: rgb(255, 255, 255, .3);
-    transition: all 2.5s;
+    transition: all .5s;
 
     font-family: "Libre Baskerville", serif;
     font-weight: 700;
@@ -44,14 +55,25 @@
 }
 
 #line1 {
-    top: 20%;
-    left: 0%;
+    top: 25%;
+    left: 10%;
 }
 
 #line2 {
-    top: 30%;
-    left: 0%;
+    top: 10%;
+    left: 60%;
 }
+
+#line3 {
+    top: 60%;
+    left: 20%;
+}
+
+#line4 {
+    top: 30%;
+    left: 80%;
+}
+
 
 .hidden {
     opacity: 0;
@@ -59,6 +81,40 @@
 
 .showing {
     opacity: 1;
+}
+
+#btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(226, 226, 226);
+    border-color: rgb(39, 39, 39);
+    border-style: solid;
+    
+}
+
+#btn:hover {
+    background-color: rgb(226, 226, 226);
+    color: rgb(39, 39, 39);
+    cursor: pointer;
+    border-color: rgb(39, 39, 39);
+    border-style: solid;
+}
+
+.fa-expand {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 36px;
+    color: orange;
+}
+
+.fa-expand:hover {
+    cursor: pointer;
 }
 
 
