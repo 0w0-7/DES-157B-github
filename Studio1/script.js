@@ -18,14 +18,6 @@
     const line6 = document.querySelector ('#line6');
 
 
-    // if vid 1 is playing and time is between 0 and 5 display line 1
-    // if vid 2 is playing and time is between 6 and 10 display line 4
-    // I need to use something to check which video is on
-    // Need to make video transition from grayscale to color
-    // Style text to the left
-    // Don't hide text until next change in video
-
-
     // myVideo.addEventListener('playing', function() {
     //     loading.style.display = 'none';
     // });
