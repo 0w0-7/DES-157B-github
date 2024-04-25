@@ -1,0 +1,21 @@
+body {
+    font-size: 18px;
+    background-color: rgb(40, 40, 40);
+}
+
+body h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(190, 190, 190);
+}
+
+#container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgb(200, 200, 200);
+    padding: 30px;
+    border-radius: 15px;
+}
