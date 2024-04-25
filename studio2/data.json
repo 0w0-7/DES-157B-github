@@ -1,0 +1,47 @@
+{
+    "song1" : {
+        "title" : "All the time in the world",
+        "author" : "Stephen Day",
+        "time" : "2:43"
+    },
+    "song2" : {
+        "title" : "Amazing",
+        "author" : "Rex Orange County",
+        "time" : "3:29"
+    },
+    "song3" : {
+        "title" : "Oh Honey! (I love you)",
+        "author" : "Peach Tree Rascals",
+        "time" : "3:09"
+    },
+    "song4" : {
+        "title" : "Sunflower",
+        "author" : "Pauline Zoe Park",
+        "time" : "3:12"
+    },
+    "song5" : {
+        "title" : "Painkiller",
+        "author" : "Ruel",
+        "time" : "3:33"
+    },
+    "song6" : {
+        "title" : "Let You Break My Heart Again",
+        "author" : "Laufey, Philharmonia Orchestra",
+        "time" : "4:29"
+    },
+    "song7" : {
+        "title" : "Hypotheticals",
+        "author" : "Lake Street Drive",
+        "time" : "3:50"
+    },
+    "song8" : {
+        "title" : "Still Feeling you",
+        "author" : "Couch",
+        "time" : "3:11"
+    },
+    "song9" : {
+        "title" : "Love like you",
+        "author" : "Steven universe, Rebecca Sugar",
+        "time" : "2:23"
+    }
+} 

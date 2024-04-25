@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(20, 20, 20);
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+}
+
+body h1 {
+    text-align: center;
+    margin: 120px 0 80px;
+    color: rgb(240, 240, 240);
+    font-size: 42px;
+}
+
+section {
+    margin: auto;
+    width: 63%;
+    height: auto;
+}
+
+#container {
+    display: flex;
+    padding: 20px 100px 20px 20px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 35px;
+    /* justify-content: center; */
+}
+
+#songImage {
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+}
+
+#info {
+    /* display: flex; */
+    margin-left: 50px;
+    margin-top: 50px;
+    color: rgb(240, 240, 240);
+    /* margin: auto; */
+    /* width: 50%; */
+    line-height: 1.2em;
+}
+
+#info h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#info #author {
+    font-size: 26px;
+    color: rgb(180, 180, 180);
+    font-weight: 500;
+}
+
+#info #time {
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#btn {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 36%;
+    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin-left: 37%; */
+    /* margin: auto; */
+    /* width: 50%; */
+    /* height: 50%; */
+    padding: 20px 180px;
+    border-radius: 35px;
+    color: rgb(240, 240, 240);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 2px;
+}
+
+#btn:hover {
+    /* border-width: 5px; */
+    border-color: rgb(240, 240, 240);
+    
+}
+
+#songImage {
+}
