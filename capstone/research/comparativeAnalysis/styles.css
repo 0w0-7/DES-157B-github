@@ -1,0 +1,60 @@
+body {
+    font-size: 18px;
+    background-color: rgb(40, 40, 40);
+}
+
+body h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(190, 190, 190);
+}
+
+#container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgb(200, 200, 200);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+
+    text-align: center;
+}
+
+#container p {
+    line-height: 1.5em;
+}
+
+#container #context {
+    margin-bottom: 50px;
+}
+
+#img {
+    width: 80%;
+    height: auto;
+    justify-content: center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#site {
+    text-align: center;
+}
+
+#site a {
+    text-decoration: none;
+    color: blue;
+}
+
+section {
+    margin-bottom: 100px;
+    text-align: left;
+}
