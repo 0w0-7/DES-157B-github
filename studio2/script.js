@@ -68,3 +68,18 @@
     }
 
 }());
+
+// HTML code
+    // <section id="container">
+    //     <img id="songImage" src="images/song1.jpeg" alt="Song Image">
+
+    //     <div id="info">
+    //         <h2 id="title">All the Time in the World</h2>
+    //         <p id="author">Stephen Day</p>
+    //         <p id="time">2:43</p>
+    //     </div>
+
+    //     <button id="btn">Next</button>
+    // </section>
+
+        
