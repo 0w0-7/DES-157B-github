@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio 3</title>
+
+    <!-- Normalize CSS for browser compatability -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    
+    <!-- FullPage.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.min.css" integrity="sha512-i5IHYtHBVvbgT6M4ltVKNqF7fh/MTVfGh3ilW1gxxgmlMocsl8aYz28aF0Iph+ceUpun06UW9CpExog9qXqFKQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- styles.css -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    
+    
+
+    <div id="fullpage">
+        <div id = "container">
+
+            <div class="section">
+                <div class="item" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom">Studio 3</div>
+            </div>
+
+            <div class="section">
+                <!-- <div class="slide">Slide 1</div>
+                <div class="slide">Slide 2</div>
+                <div class="slide">Slide 3</div> -->
+
+                <div class="item" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom">Studio 3</div>
+            </div>
+
+            <div class="section" id="section3">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Studio 3</div>
+                
+            </div>
+
+            <div class="section" id="section4">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Studio 3</div>
+            </div>
+
+            <div class="section">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Studio 3</div>
+            </div>
+
+            <div class="section">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Studio 3</div>
+            </div>
+
+            <div class="section" id="section4">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Studio 3</div>
+            </div>
+
+            <div class="section" id="section4">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Studio 3</div>
+            </div>
+
+            <div class="section" id="section4">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Studio 3</div>
+            </div>
+
+            <div class="section" id="section4">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Studio 3</div>
+            </div>
+            
+        </div>
+
+        <div id="sidebar" class="sidebar">
+            <!-- <h2 href="#">section1</h2>
+            <h2 href="#">section2</h2>
+            <h2 href="#">section3</h2>
+            <h2 href="#">section4</h2>
+            <h2 href="#">section5</h2>
+            <h2 href="#">section6</h2>
+            <h2 href="#">section7</h2>
+            <h2 href="#">section8</h2>
+            <h2 href="#">section9</h2>
+            <h2 href="#">section10</h2> -->
+
+            <div id="monitorContainer">
+                <h2>Patient - John Doe</h2>
+
+                <div id="patientMonitor">
+                    <div id="heartRate" class="sidebarContent">
+                        <h3>Heart Rate</h3>
+                        <h3 id="bpm">100 BPM</h3>
+                    </div>
+                    
+                    <h3 id="condition">Report/Condition</h3>
+                    <p>Short of breath</p>
+
+                    <!-- <video id="beat">
+                        <source src="images/Heart_beat_monitor_HD.gif" type="video/gif">
+                    </video> -->
+                    <img id="beat" src="images/heartMon.gif" alt="Heart beat monitor">
+                </div>
+            </div>
+
+            <div>
+                <h2>RN Supply and Demand</h2>
+
+                <div id="slider">
+                    <div class="sidebarContent">
+                        <h3>Turnover Rate</h3>
+                        <h3 id="turnover">16.8%</h3>
+                    </div>
+                    
+                    <div class="sidebarContent">
+                        <h3>Population over 65yo</h3>
+                        <h3 id="population">52.6 Million</h3>
+                    </div>
+                    
+
+                    <img id="nprDemo" src="https://placehold.jp/350x200.png" alt="NPR slider img">
+
+                    <div class="slidecontainer">
+                        <!-- <input type="range" min="1" max="100" value="50"> -->
+                        <input type="range" min="1" max="6" value="1" class="slider" id="myRange">
+                        <p>Year: <span id="number"></span></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- <footer>
+        <h2>Libraries</h2>
+
+        <div class="library">
+            <h3>FullPage.js</h3>
+            <a href="https://github.com/alvarotrigo/fullPage.js/?tab=readme-ov-file#fullpagejs">fullpage.js</a>
+        </div>
+
+        <div class="library">
+            <h3>Animate On Scroll</h3>
+            <a href="https://michalsnik.github.io/aos/">aos.js</a>
+        </div>
+        
+    </footer> -->
+
+
+    <!-- Sidebar -->
+    <!-- <div id="sidebar" class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div> -->
+
+
+    <!-- FullPage.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.min.js" integrity="sha512-yHHLi2ZwgtW9QNVZd0asqMyWGJ6Kx73ijKlGWSi3MwYFB5ZzOJV8wPtopKr6muHk5SERgF3OB/2dZj3StlI34w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Animate on Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Script.js -->
+    <script src="script.js" defer></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+    
+</body>
+
+</html>
