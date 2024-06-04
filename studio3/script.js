@@ -1,6 +1,6 @@
 new fullpage('#fullpage', {
     // Options
-    autoScrolling: false,
+    autoScrolling: true,
     scrollHorizontally: true,
     sectionsColor : ['#fe5f46', '#8998ec', '#fc6c7c', '#fec304'],
     navigation: true,
