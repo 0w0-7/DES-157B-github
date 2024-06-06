@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio 3</title>
+
+    <!-- Normalize CSS for browser compatability -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    
+    <!-- FullPage.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.min.css" integrity="sha512-i5IHYtHBVvbgT6M4ltVKNqF7fh/MTVfGh3ilW1gxxgmlMocsl8aYz28aF0Iph+ceUpun06UW9CpExog9qXqFKQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- styles.css -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    
+    
+
+    <div id="fullpage">
+        <div id = "container">
+
+            <div class="section">
+                <div id="slide1" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom">
+
+                    <h1 id="titleTop">The</h1>
+                    <h1>Nursing Shortage</h1>
+                    <p>As the average age of our population rises, the demand for nurses increases. However, there is a shortage in the supply of nurses to meet this growing need.</p>
+
+                    <button class="start-btn" onclick="startPopups()">Instructions</button>
+
+                    <div id="scroll">
+                        <h2>Scroll</h2>
+                        <a href="#slide2"><img src="images/downArrow.svg" alt="Down Arrow"></a>
+                        <!-- <img src="images/downArrow.svg" alt="Down Arrow"> -->
+                    </div>
+
+                </div>
+
+                
+                
+                
+            </div>
+
+            <div id="slide2" class="section">
+                <!-- <div class="slide">Slide 1</div>
+                <div class="slide">Slide 2</div>
+                <div class="slide">Slide 3</div> -->
+
+                <div class="item" data-aos="zoom-in"  data-aos-anchor-placement="bottom-bottom">
+                    <h2>*SCREECH*</h2>
+                    <h3>crash</h3>
+                </div>
+            </div>
+
+            <div id="slide3" class="section" id="section3">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <div id="introImages">
+                        <img src="images/patient.jpg" alt="Patient">
+                        <img id="car" src="images/car.jpg" alt="crashed car">
+                    </div>
+                    
+                    <div id="name" class="patientInfo">
+                        <h2>Name</h2>
+                        <p>John Doe</p>
+                    </div>
+
+                    <div id="age" class="patientInfo">
+                        <h2>Age</h2>
+                        <p>28 y/o</p>
+                    </div>
+
+                    <div class="patientInfo">
+                        <h2>Report</h2>
+                        <p>Involved in a car accident and sustained a head injury. John initially suffers a mild concussion from the car accident, leading to symptoms like mild headache, dizziness, and slight confusion.</p>
+                    </div>
+
+                    <!-- <div id="infoLeft">
+                        <h2>Name</h2>
+                        <h2>Age</h2>
+                        <h2>Report</h2>
+                    </div>
+
+                    <div id="infoRight">
+                        <p>John Doe</p>
+                        <p>28 y/o</p>
+                        <p>Involved in a car accident and sustained a head injury. John initially suffers a mild concussion from the car accident, leading to symptoms like mild headache, dizziness, and slight confusion.</p>
+                    </div> -->
+                    
+                </div>
+                
+            </div>
+
+            <div id="slide4" class="section" id="section4">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <h2 class="description">Arrival at the ER / Initial Check-In Process</h2>
+
+                    <div class="description">
+                        <p>John walked into the ER, where the front desk was overwhelmed with waiting patients.</p>
+                        <p>After checking in at the front desk, he was told to take a seat.</p>
+                        <p>Despite his visible anxiety, John begrudgingly took a seat and proceeded to wait half an hour.</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="slide5" class="section">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <h2 class="description">Extended Waiting Period / Medical Distress</h2>
+
+                    <div class="description">
+                        <p>After having now waited an hour he started experiencing severe headaches.</p>
+                        <p>John's condition continued to deteriorate as he sat waiting.</p>
+                        <p>He suddenly began convulsing, having a seizure in the waiting area.</p>
+                        <p>Bystanders allerted Medical staff immediately.</p>
+                    </div>                 
+                </div>
+
+                <!-- class="slide" -->
+                <!-- <div class="slide">slide2</div>
+                <div class="slide">slide3</div>
+                <div class="slide">slide4</div>    -->
+            </div>
+
+            <div id="slide6" class="section">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <h2 class="description">Immediate Medical Attention / Stabilization Efforts</h2>
+
+                    <div class="description">
+                        <p>The medical team quickly responded to the emergency and was assigned a level 1: high priority patient.</p>
+                        <p>He was placed on a stretcher and rushed into a private room where initial assessments and stabilizing treatments were initiated.</p>
+                        <p>Vital signs were monitored closely, and necessary medications were administered.</p>
+                        <p>John's condition remained critical despite efforts to improve his state of being.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide7" class="section" id="section4">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <h2 class="description">Cardiac Arrest / Resuscitation Efforts</h2>
+
+                    <div class="description">
+                        <p>John's heart rate dropped dramatically</p>
+                        <p>The medical team initiated resuscitation efforts.</p>
+                        <p>Life support measures were performed. Multiple rounds of CPR and defibrillation were carried out.</p>
+                        <p>Despite the efforts to save John given the nurse’s working conditions, there was a lack of timely medical attention.</p>
+                        <p>John was unable to be revived and was pronounced dead after prolonged resuscitation attempts.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide8" class="section" id="section4">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <h2></h2>
+                    <!-- Studio 3 -->
+
+                    <div>
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide9" class="section" id="section4">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Studio 3</div>
+            </div>
+
+            <div id="slide10" class="section" id="section4">
+                <div class="item" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Studio 3</div>
+            </div>
+            
+        </div>
+
+
+        <div id="sidebar" class="sidebar">
+
+            <div class="popup" id="popup1">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="showNextPopup(1)">&times;</span>
+                    <h2>Welcome to the Sidebar</h2>
+                    <p>This sidebar helps you navigate the site.</p>
+                </div>
+            </div>
+    
+            <div class="popup" id="popup2">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="showNextPopup(2)">&times;</span>
+                    <h2>How to Expand Sections</h2>
+                    <p>Click on the sections to expand them and see more details.</p>
+                </div>
+            </div>
+            
+            <div class="popup" id="popup3">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="showNextPopup(3)">&times;</span>
+                    <h2>Using the Search Bar</h2>
+                    <p>Use the search bar at the top to quickly find what you need.</p>
+                </div>
+            </div>
+
+
+            <div id="monitorContainer">
+                <h2>Patient - John Doe</h2>
+
+                <div id="patientMonitor">
+                    <div id="heartRate" class="sidebarContent">
+                        <h3>Heart Rate</h3>
+                        <h3 id="bpm">100 BPM</h3>
+                    </div>
+                    
+                    <h3 id="condition">Report/Condition</h3>
+                    <p>Short of breath</p>
+
+                    <!-- <video id="beat">
+                        <source src="images/Heart_beat_monitor_HD.gif" type="video/gif">
+                    </video> -->
+                    <img id="beat" src="images/heartMon.gif" alt="Heart beat monitor">
+                </div>
+            </div>
+
+            <div id="supplyDemand">
+                <h2>RN Supply and Demand</h2>
+
+                <div id="slider">
+                    <div class="sidebarContent">
+                        <h3>Turnover Rate</h3>
+                        <h3 id="turnover">16.8%</h3>
+                    </div>
+                    
+                    <div class="sidebarContent">
+                        <h3>Population over 65yo</h3>
+                        <h3 id="population">52.6 Million</h3>
+                    </div>
+                    
+
+                    <img id="nprDemo" src="https://placehold.jp/350x200.png" alt="NPR slider img">
+
+                    <div class="slidecontainer">
+                        <!-- <input type="range" min="1" max="100" value="50"> -->
+                        <input type="range" min="1" max="6" value="1" class="slider" id="myRange">
+                        <p>Year: <span id="number"></span></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- <footer>
+        <h2>Libraries</h2>
+
+        <div class="library">
+            <h3>FullPage.js</h3>
+            <a href="https://github.com/alvarotrigo/fullPage.js/?tab=readme-ov-file#fullpagejs">fullpage.js</a>
+        </div>
+
+        <div class="library">
+            <h3>Animate On Scroll</h3>
+            <a href="https://michalsnik.github.io/aos/">aos.js</a>
+        </div>
+        
+    </footer> -->
+
+
+    <!-- Sidebar -->
+    <!-- <div id="sidebar" class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div> -->
+
+
+    <!-- FullPage.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.min.js" integrity="sha512-yHHLi2ZwgtW9QNVZd0asqMyWGJ6Kx73ijKlGWSi3MwYFB5ZzOJV8wPtopKr6muHk5SERgF3OB/2dZj3StlI34w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Animate on Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Script.js -->
+    <script src="script.js" defer></script>
+
+    <script type="module" src="Utils.js" defer></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    
+</body>
+
+</html>
