@@ -1,0 +1,798 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #E3E7F6;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.section {
+    text-align: center;
+    /* font-size: 3em; */
+    font-size: 16px;
+}
+
+.fp-watermark {
+    display: none;
+}
+
+#fullpage {
+    display: flex;
+    flex-direction: column;
+    color: #1A1A1A;
+}
+
+#container{
+    text-align: center;
+    align-items: center;
+    margin-left: 400px;
+    /* overflow-y: hidden; */
+    margin: 0 120px 0 500px;
+}
+
+/* #section3 {
+    background-image: url('https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg3.jpg');
+}
+
+#section4 {
+    background-image: url('https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg');
+} */
+
+.section {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow:hidden; */
+    
+
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #fff;
+    opacity: 50%;
+}
+
+.active span {
+    background-color: #901414;
+}
+
+#fp-nav ul li .fp-tooltip {
+    font-size: 18px;
+    top: -4px;
+    color: #f1f1f1;
+    opacity: 80%;
+}
+
+
+/* Slide1 */
+#slide1 {
+    margin-bottom: 100px;
+}
+
+#slide1 #titleTop {
+    font-size: 40px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+#slide1 h1 {
+    font-size: 96px;
+    margin: 0px 0 30px;
+    text-align: left;
+}
+
+#slide1 p {
+    font-size: 20px;
+    font-weight: 300;
+    /* margin: 0 60px; */
+    margin: 0 300px 0 5px;
+    line-height: 30px;
+    color: #606060;
+    text-align: left;
+}
+
+
+.start-btn {
+    margin-top: 30px;
+    margin-left: 5px;
+    float: left;
+}
+
+.start-btn:hover {
+    background-color: #123477;
+    color: rgb(235, 235, 235);
+}
+
+.popup-content {
+    padding: 20px 40px 20px 20px;
+}
+
+.popup-content h2 {
+    margin-top: 5px;
+}
+
+
+#scroll {
+    margin-top: 250px;
+    position: absolute;
+    /* margin: 125px 375px; */
+    width: 100%;
+}
+
+#scroll h2 {
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 22px;
+    color: #858585;
+}
+
+#scroll img {
+    width: 26px;
+    height: auto;
+    opacity: 70%;
+}
+
+/* Slide 2 */
+#slide2 h2 {
+    font-size: 98px;
+    margin: 0;
+    color: #901414;
+}
+
+#slide2 h3 {
+    font-size: 32px;
+    color: #484848;
+}
+
+
+/* Slide 3 */
+#slide3 {
+    margin: 0 0 0 -100px;
+}
+
+#slide3 #introImages {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 30px;
+}
+
+#slide3 img {
+    height: 250px;
+    width: auto;
+    border-radius: 15px;
+}
+
+#slide3 #car {
+    margin-left: 25px;
+}
+
+#slide3 .patientInfo {
+    display: flex;
+    font-size: 20px;
+    /* justify-content: space-between; */
+    color: #1A1A1A;
+}
+
+#slide3 .patientInfo h2 {
+    font-size: 24px;
+}
+
+#slide3 .patientInfo p {
+    font-size: 18px;
+    margin-left: 50px;
+    text-align: left;
+    line-height: 30px;
+}
+
+#slide3 #name p {
+    margin-left: 62px;
+}
+
+#slide3 #age p {
+    margin-left: 82px;
+}
+
+/* Slide 4 */
+#slide4 h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #1A1A1A;
+}
+
+#slide4 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #a7acb8;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#slide4 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+
+#slide4 .description {
+    text-align: left;
+}
+
+
+/* Slide 5 */
+#slide5 h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #1A1A1A;
+}
+
+#slide5 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #a7acb8;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#slide5 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #1A1A1A;
+}
+
+#slide5 .description {
+    text-align: left;
+}
+
+
+/* Slide 6 */
+#slide6 h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #1A1A1A;
+}
+
+#slide6 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #a7acb8;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#slide6 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #1A1A1A;
+}
+
+#slide6 .description {
+    text-align: left;
+}
+
+
+/* Slide 7 */
+#slide7 h2 {
+    color: #1A1A1A;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#slide7 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #a7acb8;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#slide7 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #1A1A1A;
+}
+
+#slide7 .description {
+    text-align: left;
+}
+
+
+/* Slide 8 */
+#slide8 h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #1A1A1A;
+}
+
+#slide8 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    /* margin-top: 50px; */
+    margin-bottom: 30px;
+    color: #1A1A1A;
+}
+
+#slide8 .description {
+    text-align: left;
+}
+
+#slide8 #statInstruction {
+    color: #a7acb8;
+}
+
+#statistics {
+    margin-top: 80px;
+    position: absolute;
+    /* margin: 125px 375px; */
+    width: 100%;
+}
+
+#statistics #statBtn {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 0px;
+    color: #63666d;
+}
+
+#statistics img {
+    width: 26px;
+    height: auto;
+}
+
+
+/* Slide 9 */
+
+#slide9 h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+    color: #1a1a1a;
+}
+
+#slide9 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #4e5056;
+}
+
+#slide9 .description {
+    text-align: left;
+}
+
+/* #slide9 {
+    top: 100%;
+    -ms-transform: translateY(+20%);
+    transform: translateY(+20%);
+} */
+
+
+/* Slide 10 */
+#slide10 h2 {
+    font-size: 40px;
+    /* text-align: left; */
+    margin-bottom: 50px;
+    /* margin-left: -80px; */
+    color: #1a1a1a;
+    color: #8594b8;
+}
+
+#factorsContainer {
+    margin-left: -80px;
+}
+
+#slide10 .factorsInfo {
+    text-align: left;
+    margin-right: 50px;
+}
+
+#slide10 .factorsInfo h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: auto;
+    color: #1045ae;
+    /* color: #3b5288; */
+}
+
+#slide10 .item #factorsContainer {
+    display: flex;
+}
+
+#slide10 .item .factorsInfo p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 10px 0 40px;
+    color: #b4b4b4;
+    color: #4e5056;
+}
+
+#slide10 .description {
+    text-align: left;
+}
+
+#factorsContainer .factorsInfo {
+    width: 350px;
+    height: auto;
+}
+
+
+/* Slide 11 */
+#slide11 {
+    text-align: left;
+}
+
+#slide11 h2 {
+    font-size: 90px;
+    margin-bottom: 10px;
+    color: #1A1A1A; color: #1c3777;
+}
+
+#slide11 h3 {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    color: #a7acb8; color: #1c3777;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+#slide11 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 25px;
+    color: #4e5056;
+}
+
+
+/* ----- Sidebar ----- */
+.sidebar {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #D0D8F3;
+    /* overflow-x: hidden; */
+    padding-top: 10px;
+}
+
+/* Heart rate + Nurse condition */
+.sidebar #monitorContainer h2, #nurseCondition h2 {
+    padding: 8px 8px 8px 32px;
+    margin: 5px 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: #1A1A1A;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sidebarContent {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+/* .sidebar h2:hover {
+    color: #f1f1f1;
+} */
+
+/* Heart Rate Monitor */
+#monitorContainer {
+    margin-bottom: 20px;
+}
+
+#patientMonitor {
+    background-color: #E2E9FF;
+    /* border: solid 2px #a7a7a7; */
+    color: #c7c7c7 ;
+    width: 350px;
+    height: auto;
+    margin-left: 25px;
+    padding: 1px 15px 15px;
+    border-radius: 8px;
+}
+
+#patientMonitor h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 15px 0 0px;
+    color: #282828;
+}
+
+#patientMonitor p {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 15px 0;
+}
+
+#patientMonitor #condition {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    /* color: #6b6b6b; */
+    /* color: #5f5f5f; */
+    color: #282828;
+    /* margin: -5px 0 5px 0; */
+    margin: 10px 0 10px;
+}
+
+#patientMonitor #beat {
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+}
+
+#heartRate {
+    display: flex;
+    justify-content: space-between;
+}
+
+#patientMonitor #bpm {
+    margin-bottom: 0px;
+    color: #a82222;
+}
+
+
+/* Nurse Condition Slider */
+#slider {
+    background-color: #E2E9FF;
+    /* border: solid 2px #a7a7a7; */
+    color: #c7c7c7 ;
+    width: 350px;
+    height: auto;
+    margin-left: 25px;
+    padding: 15px 15px 1px;
+    border-radius: 8px;
+}
+
+#slider img {
+    width: 80px;
+    height: auto;
+}
+
+#slider #nurseDemo {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+
+#slider .sidebarContent img {
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+#slider .sidebarContent h3 {
+    margin: 12px 0 5px 0;
+    font-weight: normal;
+    color: #282828;
+}
+
+#slider .sidebarContent p {
+    margin: 0;
+    color: #7a7a7a;
+}
+
+
+.slidecontainer {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.slidecontainer p {
+    margin: 0;
+}
+
+.slidecontainer #time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: #1a1a1a;
+}
+
+.slidecontainer #number {
+    color: #616161;
+}
+
+.slidecontainer #nurseShift {
+    margin: 22px 0 15px;
+    line-height: 23px;
+}
+
+
+#nurseDemo {
+    margin-top: 15px;
+}
+
+.health-bar-container {
+    width: 225px;
+    height: 20px;
+    background-color: #b2bee4;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+    /* box-shadow: inset 0 0 5px #000; */
+    /* border: solid 2px #111; */
+}
+
+.health-bar {
+    height: 100%;
+    background-color: green;
+    width: 100%;
+    transition: width 0.25s ease;
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background: #b2bee4;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 8px;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 25px;
+    border-radius: 8px;
+    /* background: #1073be; */
+    background: #ffffff;
+    cursor: pointer;
+
+
+    /* width: 25px;
+    height: 25px;
+    border-radius: 50%; */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+
+
+/* Footer */
+footer {
+    padding: 80px;
+    position: absolute;
+    z-index: 0;
+    font-size: 2.3em;
+    margin-left: 400px;
+}
+
+footer h2 {
+    margin-bottom: 1.5em;
+}
+
+footer h3 {
+    font-size: 1em;
+}
+
+
+.library {
+    margin-bottom: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.item {
+    width: 600px;
+    height: auto;
+    margin: 50px auto;
+    /* padding-top: 75px; */
+    /* background: #ccc; */
+    /* text-align: center; */
+    color: #FFF;
+    font-size: 3em;
+}
+
+/* Sidebar Instructions BUTTON */
+.start-btn {
+    background-color: #0a4ed5;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    /* border-radius: 4px; */
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+/* Pop-up */
+.popup {
+    display: none;
+    position: absolute;
+    width: calc(100% - 40px);
+    background-color: #0a4ed5; 
+    color: #cdcdcd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    /* border-radius: 4px; */
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1000;
+    text-align: left;
+}
+
+.popup-content {
+    padding: 20px 25px 60px;
+}
+
+.popup-content p {
+    color: #accbe9;
+}
+
+.popup h2 {
+    color: #f7f7f7;
+}
+
+.close-btn {
+    /* color: #c0c0c0; */
+    /* background-color: #191919; */
+    color: #f7f7f7;
+    border: solid #f7f7f7;
+    float: right;
+    /* font-size: 24px; "x" */
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px 18px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.close-btn:hover {
+    color: #1A1A1A;
+    background-color: #f7f7f7;
+}
+
+
+
+/* chart.js */
+/* #myChart {
+    background-color: #2e2e2e;
+    padding: 30px;
+} */
+
+
+.chartBox {
+    width: 100%;
+}
+
+.chart {
+    /* position: relative; */
+    width: 45vw;
+    height: 25vw;
+    margin-top: -20px;
+    margin-left: -30px;
+    /* margin-bottom: 50px; */
+}
